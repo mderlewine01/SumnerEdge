@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CDF49F62C065FD60039134B /* SumnerEdgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF49F52C065FD60039134B /* SumnerEdgeApp.swift */; };
+		4CDF49F82C065FD60039134B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF49F72C065FD60039134B /* ContentView.swift */; };
+		4CDF49FA2C065FD70039134B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDF49F92C065FD70039134B /* Assets.xcassets */; };
+		4CDF49FD2C065FD70039134B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDF49FC2C065FD70039134B /* Preview Assets.xcassets */; };
+		4CDF4A072C065FD70039134B /* SumnerEdgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF4A062C065FD70039134B /* SumnerEdgeTests.swift */; };
+		4CDF4A112C065FD70039134B /* SumnerEdgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF4A102C065FD70039134B /* SumnerEdgeUITests.swift */; };
+		4CDF4A132C065FD70039134B /* SumnerEdgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF4A122C065FD70039134B /* SumnerEdgeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CDF4A032C065FD70039134B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDF49EA2C065FD60039134B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDF49F12C065FD60039134B;
+			remoteInfo = SumnerEdge;
+		};
+		4CDF4A0D2C065FD70039134B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDF49EA2C065FD60039134B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDF49F12C065FD60039134B;
+			remoteInfo = SumnerEdge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CDF49F22C065FD60039134B /* SumnerEdge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumnerEdge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDF49F52C065FD60039134B /* SumnerEdgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumnerEdgeApp.swift; sourceTree = "<group>"; };
+		4CDF49F72C065FD60039134B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CDF49F92C065FD70039134B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CDF49FC2C065FD70039134B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CDF4A022C065FD70039134B /* SumnerEdgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumnerEdgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDF4A062C065FD70039134B /* SumnerEdgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumnerEdgeTests.swift; sourceTree = "<group>"; };
+		4CDF4A0C2C065FD70039134B /* SumnerEdgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumnerEdgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDF4A102C065FD70039134B /* SumnerEdgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumnerEdgeUITests.swift; sourceTree = "<group>"; };
+		4CDF4A122C065FD70039134B /* SumnerEdgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumnerEdgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CDF49EF2C065FD60039134B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDF49FF2C065FD70039134B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDF4A092C065FD70039134B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CDF49E92C065FD60039134B = {
+			isa = PBXGroup;
+			children = (
+				4CDF49F42C065FD60039134B /* SumnerEdge */,
+				4CDF4A052C065FD70039134B /* SumnerEdgeTests */,
+				4CDF4A0F2C065FD70039134B /* SumnerEdgeUITests */,
+				4CDF49F32C065FD60039134B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CDF49F32C065FD60039134B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF49F22C065FD60039134B /* SumnerEdge.app */,
+				4CDF4A022C065FD70039134B /* SumnerEdgeTests.xctest */,
+				4CDF4A0C2C065FD70039134B /* SumnerEdgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CDF49F42C065FD60039134B /* SumnerEdge */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF49F52C065FD60039134B /* SumnerEdgeApp.swift */,
+				4CDF49F72C065FD60039134B /* ContentView.swift */,
+				4CDF49F92C065FD70039134B /* Assets.xcassets */,
+				4CDF49FB2C065FD70039134B /* Preview Content */,
+			);
+			path = SumnerEdge;
+			sourceTree = "<group>";
+		};
+		4CDF49FB2C065FD70039134B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF49FC2C065FD70039134B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CDF4A052C065FD70039134B /* SumnerEdgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF4A062C065FD70039134B /* SumnerEdgeTests.swift */,
+			);
+			path = SumnerEdgeTests;
+			sourceTree = "<group>";
+		};
+		4CDF4A0F2C065FD70039134B /* SumnerEdgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF4A102C065FD70039134B /* SumnerEdgeUITests.swift */,
+				4CDF4A122C065FD70039134B /* SumnerEdgeUITestsLaunchTests.swift */,
+			);
+			path = SumnerEdgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CDF49F12C065FD60039134B /* SumnerEdge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDF4A162C065FD70039134B /* Build configuration list for PBXNativeTarget "SumnerEdge" */;
+			buildPhases = (
+				4CDF49EE2C065FD60039134B /* Sources */,
+				4CDF49EF2C065FD60039134B /* Frameworks */,
+				4CDF49F02C065FD60039134B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SumnerEdge;
+			productName = SumnerEdge;
+			productReference = 4CDF49F22C065FD60039134B /* SumnerEdge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CDF4A012C065FD70039134B /* SumnerEdgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDF4A192C065FD70039134B /* Build configuration list for PBXNativeTarget "SumnerEdgeTests" */;
+			buildPhases = (
+				4CDF49FE2C065FD70039134B /* Sources */,
+				4CDF49FF2C065FD70039134B /* Frameworks */,
+				4CDF4A002C065FD70039134B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDF4A042C065FD70039134B /* PBXTargetDependency */,
+			);
+			name = SumnerEdgeTests;
+			productName = SumnerEdgeTests;
+			productReference = 4CDF4A022C065FD70039134B /* SumnerEdgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CDF4A0B2C065FD70039134B /* SumnerEdgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDF4A1C2C065FD70039134B /* Build configuration list for PBXNativeTarget "SumnerEdgeUITests" */;
+			buildPhases = (
+				4CDF4A082C065FD70039134B /* Sources */,
+				4CDF4A092C065FD70039134B /* Frameworks */,
+				4CDF4A0A2C065FD70039134B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDF4A0E2C065FD70039134B /* PBXTargetDependency */,
+			);
+			name = SumnerEdgeUITests;
+			productName = SumnerEdgeUITests;
+			productReference = 4CDF4A0C2C065FD70039134B /* SumnerEdgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CDF49EA2C065FD60039134B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4CDF49F12C065FD60039134B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					4CDF4A012C065FD70039134B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4CDF49F12C065FD60039134B;
+					};
+					4CDF4A0B2C065FD70039134B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4CDF49F12C065FD60039134B;
+					};
+				};
+			};
+			buildConfigurationList = 4CDF49ED2C065FD60039134B /* Build configuration list for PBXProject "SumnerEdge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CDF49E92C065FD60039134B;
+			productRefGroup = 4CDF49F32C065FD60039134B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDF49F12C065FD60039134B /* SumnerEdge */,
+				4CDF4A012C065FD70039134B /* SumnerEdgeTests */,
+				4CDF4A0B2C065FD70039134B /* SumnerEdgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CDF49F02C065FD60039134B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDF49FD2C065FD70039134B /* Preview Assets.xcassets in Resources */,
+				4CDF49FA2C065FD70039134B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDF4A002C065FD70039134B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDF4A0A2C065FD70039134B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CDF49EE2C065FD60039134B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDF49F82C065FD60039134B /* ContentView.swift in Sources */,
+				4CDF49F62C065FD60039134B /* SumnerEdgeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDF49FE2C065FD70039134B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDF4A072C065FD70039134B /* SumnerEdgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDF4A082C065FD70039134B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDF4A112C065FD70039134B /* SumnerEdgeUITests.swift in Sources */,
+				4CDF4A132C065FD70039134B /* SumnerEdgeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CDF4A042C065FD70039134B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDF49F12C065FD60039134B /* SumnerEdge */;
+			targetProxy = 4CDF4A032C065FD70039134B /* PBXContainerItemProxy */;
+		};
+		4CDF4A0E2C065FD70039134B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDF49F12C065FD60039134B /* SumnerEdge */;
+			targetProxy = 4CDF4A0D2C065FD70039134B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CDF4A142C065FD70039134B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CDF4A152C065FD70039134B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CDF4A172C065FD70039134B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SumnerEdge/Preview Content\"";
+				DEVELOPMENT_TEAM = RQSL9D3BZD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SCS.SumnerEdge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CDF4A182C065FD70039134B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SumnerEdge/Preview Content\"";
+				DEVELOPMENT_TEAM = RQSL9D3BZD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SCS.SumnerEdge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CDF4A1A2C065FD70039134B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQSL9D3BZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SCS.SumnerEdgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SumnerEdge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SumnerEdge";
+			};
+			name = Debug;
+		};
+		4CDF4A1B2C065FD70039134B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQSL9D3BZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SCS.SumnerEdgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SumnerEdge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SumnerEdge";
+			};
+			name = Release;
+		};
+		4CDF4A1D2C065FD70039134B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQSL9D3BZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SCS.SumnerEdgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SumnerEdge;
+			};
+			name = Debug;
+		};
+		4CDF4A1E2C065FD70039134B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQSL9D3BZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SCS.SumnerEdgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SumnerEdge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CDF49ED2C065FD60039134B /* Build configuration list for PBXProject "SumnerEdge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDF4A142C065FD70039134B /* Debug */,
+				4CDF4A152C065FD70039134B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDF4A162C065FD70039134B /* Build configuration list for PBXNativeTarget "SumnerEdge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDF4A172C065FD70039134B /* Debug */,
+				4CDF4A182C065FD70039134B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDF4A192C065FD70039134B /* Build configuration list for PBXNativeTarget "SumnerEdgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDF4A1A2C065FD70039134B /* Debug */,
+				4CDF4A1B2C065FD70039134B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDF4A1C2C065FD70039134B /* Build configuration list for PBXNativeTarget "SumnerEdgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDF4A1D2C065FD70039134B /* Debug */,
+				4CDF4A1E2C065FD70039134B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CDF49EA2C065FD60039134B /* Project object */;
+}
